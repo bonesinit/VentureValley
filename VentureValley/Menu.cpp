@@ -1,6 +1,8 @@
 /*
 	File:		Menu.cpp
 	Author:		Brandon White
+
+	See "Menu.h" for documentation.
 */
 
 #include "Menu.h"
