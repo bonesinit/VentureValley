@@ -151,16 +151,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Quest.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="VentureValley.cpp" />
+    <ClCompile Include="Village.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Quest.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="TextAdventure.h" />
+    <ClInclude Include="Village.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
