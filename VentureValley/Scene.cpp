@@ -3,4 +3,13 @@
 	Author:		Brandon White
 */
 
-#include "Scene.h"
+#include "TextAdventure.h"
+
+//void Scene::play() {
+//	
+//	for (int i = 0; i < storyLength; i++) {
+//		cout << story[i] << endl;
+//	}
+//
+//	cout << endl;
+//}

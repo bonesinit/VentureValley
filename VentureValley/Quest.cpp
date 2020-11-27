@@ -3,4 +3,8 @@
 	Author:		Brandon White
 */
 
-#include "Quest.h"
+#include "TextAdventure.h"
+
+//void Quest::start() {
+//	first->play();
+//}

@@ -5,7 +5,7 @@ int main()
 // SETUP MENU
 	Menu* menu = new Menu();
 
-// SETUP GAMEPLAY
+// SETUP GAME CONTROL
 	bool quit		=	false;	
 	bool inMenu		=	true;	
 	bool inGame		=	false;
@@ -19,6 +19,8 @@ int main()
 
 // SETUP QUESTS
 
+// SAVED VARIABLES
+
 
 // GAMEPLAY LOOP
 	while (!quit) {
@@ -31,6 +33,7 @@ int main()
 					2 - Instructions 
 					3 - Pause
 					4 - Create character
+					5 - Quit
 					5 - Quit
 			*/
 
@@ -64,12 +67,25 @@ int main()
 
 		while (inGame) {
 			while (!inQuest) {
+			/*	switch (activeVillage) {
+				case 1:
 
+				}*/
 			}
 
 			while (inQuest) {
+				//switch (activeQuest) {
+				//case 1:
+				//	// Example:
+				//	// quest1Outcome = quest1->play();
+				//	// hasMonkeyFriend = quest1->questVars[1];
+				//	// activeQuest = 0;
+				//	// inQuest = false;
+				//	break;
 
+				//}
 			}
 		}
+
 	}
 }

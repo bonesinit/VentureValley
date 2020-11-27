@@ -5,17 +5,15 @@
 
 #pragma once
 
-#include "Scene.h"
+#include "TextAdventure.h"
 
 class Quest
 {
-
 public:
 	Scene* first;
 
-	int playerClass;
-
-	int questVars[10];
+	int inputVars[10];
+	int outputVars[10];
 
 	void start();
 };

@@ -4,20 +4,23 @@
 */
 
 #pragma once
-#include <string>
-
-using namespace std;
+#include "TextAdventure.h"
 
 class Scene
 {
 public:
 	Scene* next;
+	//Quest* quest;
 
-	string story;
+	// Up to 5 lines so we don't have sentences run off screen.
+	string story[5];
+	int storyLength;	// 0 - 4, based on number of story space we use.
+
 	string choices[5];
 	string hiddenChoices[5];
+	int numChoices;
+	int numHiddenChoices;
 
-
-	void play(Scene &scene, int playerClass);
+	void play();
 };
 
