@@ -86,7 +86,7 @@ int Menu::printMenu(int type) {
 	}
 
 // CHOICE CONVERSION
-	// Converts choice into menuType in main.
+	// Converts choice into menuType for use in main.
 	if (type == 1 && choice == 4) {
 		choice = 9;
 	}

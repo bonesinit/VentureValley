@@ -19,6 +19,5 @@ public:
 
 
 	void play(Scene &scene, int playerClass);
-
 };
 

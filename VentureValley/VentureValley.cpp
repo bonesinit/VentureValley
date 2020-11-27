@@ -1,7 +1,4 @@
-#include <iostream>
-#include "Menu.h"
-
-using namespace std;
+#include "TextAdventure.h"
 
 int main()
 {
@@ -14,8 +11,11 @@ int main()
 	bool inGame		=	false;
 	bool inQuest	=	false;	// If false we are in a village.
 
-	int	 menuType	=	1;
-	int	 menuChoice	=	0;
+	int	menuType	=	1;
+	int	menuChoice	=	0;
+
+	int activeQuest =	0;
+	int activeVillage = 0;
 
 // SETUP QUESTS
 
