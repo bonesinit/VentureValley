@@ -34,7 +34,6 @@ int main()
 					3 - Pause
 					4 - Create character
 					5 - Quit
-					5 - Quit
 			*/
 
 			switch (menuChoice) {
