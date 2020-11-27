@@ -5,9 +5,8 @@
 #include <cstdlib>
 #include <string>
 
-#include "Menu.h"
-//#include "Quest.h"
-//#include "Scene.h"
-
-
 using namespace std;
+
+#include "Menu.h"
+#include "Scene.h"
+

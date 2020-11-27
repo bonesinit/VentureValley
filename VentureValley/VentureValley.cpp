@@ -7,8 +7,7 @@ int main()
 
 // SETUP GAME CONTROL
 	bool quit		=	false;	
-	bool inMenu		=	true;	
-	bool inGame		=	false;
+	bool inGame		=	false;	// If false we are in a menu.
 	bool inQuest	=	false;	// If false we are in a village.
 
 	int	menuType	=	1;
@@ -24,11 +23,12 @@ int main()
 
 // GAMEPLAY LOOP
 	while (!quit) {
-		while (inMenu) {
+		while (!inGame) {
+			// See "Menu.h" for documentation.
 			menuChoice = menu->printMenu(menuType);
 
 			/* 
-				There are 4 menu types:
+				There are 5 menu types:
 					1 - Main
 					2 - Instructions 
 					3 - Pause
@@ -58,7 +58,7 @@ int main()
 			
 			// Quit
 			case 9:
-				inMenu = false;
+				inGame = true;
 				quit = true;
 				break;
 			}
@@ -66,25 +66,16 @@ int main()
 
 		while (inGame) {
 			while (!inQuest) {
-			/*	switch (activeVillage) {
-				case 1:
-
-				}*/
+			
 			}
 
 			while (inQuest) {
-				//switch (activeQuest) {
-				//case 1:
-				//	// Example:
-				//	// quest1Outcome = quest1->play();
-				//	// hasMonkeyFriend = quest1->questVars[1];
-				//	// activeQuest = 0;
-				//	// inQuest = false;
-				//	break;
-
-				//}
+			
 			}
 		}
 
 	}
+
+// CLEAR MEMORY
+	delete menu;
 }
