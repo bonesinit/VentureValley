@@ -166,6 +166,7 @@
     <ClInclude Include="Item.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Quest.h" />
+    <ClInclude Include="SaveData.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="TextAdventure.h" />
     <ClInclude Include="Village.h" />
