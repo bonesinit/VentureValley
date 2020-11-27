@@ -5,3 +5,8 @@
 
 #include "Village.h"
 
+void Village::printBuildings() {
+
+
+
+}
