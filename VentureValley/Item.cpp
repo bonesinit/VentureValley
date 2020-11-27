@@ -5,6 +5,6 @@
 
 #include "Item.h"
 
-void printInfo::Item() {
+void Item::printInfo() {
 
 };
